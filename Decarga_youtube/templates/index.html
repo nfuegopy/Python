@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Descargador de YouTube</title>
+</head>
+<body>
+    <h1>Descargador de YouTube</h1>
+    <form method="POST">
+        URL del video de YouTube: <input type="text" name="url" required><br>
+        Lugar donde se almacenará: <input type="text" name="path" required>
+
+        Nombre del archivo: <input type="text" name="filename"><br>
+        Formato: <select name="format">
+            <option value="video">Video (.mp4)</option>
+            <option value="audio">Audio (.mp3)</option>
+        </select><br>
+        <input type="submit" value="Descargar">
+    </form>
+</body>
+</html>
